@@ -1,13 +1,14 @@
-import {createSlice} from "@reduxjs/toolkit"
+import { createSlice } from "@reduxjs/toolkit";
 
 const userSlice = createSlice({
-  initialState:{
-    teamlead:[]
+  name: "gdsc",
+  initialState: {
+    teamlead:[],
   },
-  reducers:{
+  reducers: {
 
-  }
-})
+  },
+});
 
-export const {} = userSlice.actions
+export const {} = userSlice.actions;
 export default userSlice.reducer;
