@@ -6,10 +6,10 @@ const AboutHeader = () => {
     <div className="flex mt-10 justify-center items-center w-full">
       <div className="flex relative justify-start items-center w-1/2">
         <div
-          className="shadow-big flex w-[500px] h-[500px] overflow-hidden"
+          className="shadow-big flex items-center justify-center w-[500px] h-[500px] overflow-hidden"
           style={{ borderRadius: "35% 65% 60% 40% / 30% 28% 72% 70% " }}
         >
-            <img src="https://img.freepik.com/free-vector/corporate-meeting-employees-cartoon-characters-discussing-business-strategy-planning-further-actions-brainstorming-formal-communication-seminar-concept-illustration_335657-2035.jpg?w=740&t=st=1701526281~exp=1701526881~hmac=b05bbfee4ebc83ce2ee2470fe258df9f963900b42f6fb642a8a42291126c3340" alt="header-img" className="w-full h-full object-cover" />
+            <img src={headerImg} alt="header-img" className="w-[500px]" />
         </div>
       </div>
       <div className="flex flex-col gap-8 justify-center items-start w-1/2">
