@@ -3,7 +3,7 @@ import headerImg from "../assets/images/about-header.png";
 
 const AboutHeader = () => {
   return (
-    <div className="flex xs:flex-col mt-10 xs:mt-5 justify-center items-center w-full">
+    <div className="flex xs:flex-col mt-10 xs:mt-5 justify-center items-center w-full max-w-[2500px]">
       <div className="flex relative justify-center xs:justify-center items-center w-1/2 xs:w-full">
         <div
           className="shadow-big flex items-center justify-center w-[500px] xs:w-[300px] h-[500px] xs:h-[300px] overflow-hidden"
