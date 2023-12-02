@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary-blue": "#746BDB",
+        "primary-blue": "#4285F4",
         "primary-grey": "#656C73"
       },
       boxShadow: {
