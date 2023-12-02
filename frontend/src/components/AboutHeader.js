@@ -3,20 +3,20 @@ import headerImg from "../assets/images/about-header.png";
 
 const AboutHeader = () => {
   return (
-    <div className="flex mt-10 justify-center items-center w-full">
-      <div className="flex relative justify-start items-center w-1/2">
+    <div className="flex xs:flex-col mt-10 xs:mt-5 justify-center items-center w-full">
+      <div className="flex relative justify-start xs:justify-center items-center w-1/2 xs:w-full">
         <div
-          className="shadow-big flex items-center justify-center w-[500px] h-[500px] overflow-hidden"
+          className="shadow-big flex items-center justify-center w-[500px] xs:w-[300px] h-[500px] xs:h-[300px] overflow-hidden"
           style={{ borderRadius: "35% 65% 60% 40% / 30% 28% 72% 70% " }}
         >
             <img src={headerImg} alt="header-img" className="w-[500px]" />
         </div>
       </div>
-      <div className="flex flex-col gap-8 justify-center items-start w-1/2">
-        <h1 className="text-6xl font-semibold text-primary-blue">
+      <div className="flex xs:mt-8 flex-col gap-8 xs:gap-5 justify-center items-start w-1/2 xs:w-full">
+        <h1 className="text-6xl xs:text-5xl font-semibold text-primary-blue">
           What is GDSC..?
         </h1>
-        <p className="text-xl text-primary-grey">
+        <p className="text-xl xs:text-justify text-primary-grey">
           Google Developer Student Clubs (GDSC) are student-led communities on
           campuses worldwide, fostering a passion for technology through coding
           challenges, workshops, and hackathons. Part of the Google Developer
