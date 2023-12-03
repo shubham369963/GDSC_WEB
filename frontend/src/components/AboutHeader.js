@@ -1,22 +1,17 @@
 import React from "react";
-import headerImg from "../assets/images/about-header.png";
+import headerImg from "../assets/images/gdsc-banner.webp";
 
 const AboutHeader = () => {
   return (
-    <div className="flex xs:flex-col mt-10 xs:mt-5 justify-center items-center w-full max-w-[2500px]">
-      <div className="flex relative justify-center xs:justify-center items-center w-1/2 xs:w-full">
-        <div
-          className="shadow-big flex items-center justify-center w-[500px] xs:w-[300px] h-[500px] xs:h-[300px] overflow-hidden"
-          style={{ borderRadius: "35% 65% 60% 40% / 30% 28% 72% 70% " }}
-        >
+    <div className="flex xs:flex-col mt-10 px-20 xs:mt-5 justify-between items-center w-full max-w-[2500px]">
+      <div className="flex  xs:justify-center items-center w-1/2 xs:w-full">
             <img src={headerImg} alt="header-img" className="w-[500px]" />
-        </div>
       </div>
-      <div className="flex xs:mt-8 flex-col gap-8 xs:gap-5 justify-center items-start w-1/2 xs:w-full">
-        <h1 className="text-6xl xs:text-5xl font-semibold text-primary-blue">
-          What is GDSC..?
+      <div className="flex xs:mt-8 flex-col gap-4 max-w-[800px] xs:gap-5 justify-center items-start w-1/2 xs:w-full">
+        <h1 className="text-[44px] xs:text-2xl text-black">
+          Learn About GDSC
         </h1>
-        <p className="text-xl xs:text-justify text-primary-grey">
+        <p className="text-[1.05em] text-justify xs:text-justify text-neutral-800">
           Google Developer Student Clubs (GDSC) are student-led communities on
           campuses worldwide, fostering a passion for technology through coding
           challenges, workshops, and hackathons. Part of the Google Developer
