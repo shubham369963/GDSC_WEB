@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-border{
+    box-shadow:
+    -50px -50px 0 -40px #1967D2,
+    50px 50px 0 -40px #1967D2;
+}
