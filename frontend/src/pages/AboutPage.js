@@ -9,7 +9,7 @@ const AboutPage = () => {
   };
 
   return (
-    <div className='w-full bg-auto bg-repeat-y flex flex-col justify-center items-center gap-20 px-20 py-10 xs:px-5 xs:py-5' style={containerStyle}>
+    <div className='w-full bg-auto bg-repeat-y flex flex-col justify-center items-center gap-[150px] px-20 py-10 xs:px-5 xs:py-5' style={containerStyle}>
       <AboutHeader />
       <AboutTimeline />
     </div>
